@@ -1,4 +1,4 @@
-import { StyleSheet, Text, View, Pressable, Modal as NewModal } from 'react-native'
+import { StyleSheet, Text, View, Pressable, Modal as NewModal} from 'react-native'
 import React from 'react'
 
 const Modal = (props) => {
@@ -9,8 +9,7 @@ const Modal = (props) => {
         transparent={true}
         visible={isVisible}
         onRequestClose={() => {
-          Alert.alert("Modal has been closed.");
-          setModalVisible(!modalVisible);
+          actionEsconderModal();
         }}
       >
         <View style={styles.centeredView}>

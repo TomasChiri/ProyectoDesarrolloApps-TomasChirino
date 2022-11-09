@@ -2,10 +2,8 @@ import { useState } from "react";
 import {
   StyleSheet,
   Text,
-  TextInput,
   View,
   TouchableOpacity,
-  FlatList,
 } from "react-native";
 import AddItem from "./components/AddItem";
 import Lista from "./components/Lista";
